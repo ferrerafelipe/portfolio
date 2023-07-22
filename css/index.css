@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    overflow-x: hidden; 
+}
+
+header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.container{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.menu{
+    color: #fff;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+li a:hover {
+    color: #999;
+    transition: 0.5s;
+}
+
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #191919;
+}
+
+.my-name{
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.portfolio {
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.portfolio span {
+    color: red;
+}
+
+h1{
+    color: #fff;
+    
+}
+
+h1 span{
+    color: red;
+}
+
+h3 {
+    font-size: 20px;
+    color: #999;
+}
+
+.felipe {
+    height: 400px;
+    border-radius: 100%;
+    border: 2px solid #191919;
+    background-position: bottom;
+    
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+    height: 100vh;
+    padding: 50px;
+}
+
+.sobre-escrita{
+    padding: 50px;
+}
+
+.sobre-escrita h2{
+    color: white;
+    font-size: 40px;
+}
+
+.sobre-escrita p {
+    color: white
+}
+
+.botao1 {
+   color: white;
+   background-color: red;
+   border: none;
+   border-radius:20px;
+   height: 50px;
+   width: 150px;
+   cursor: pointer;
+}
+
+.botao1:hover {
+    background-color: rgb(177, 27, 27);
+    transition: 0.5s;
+}
+
+
+
+
+
+.projetos{
+    
+    height: 100vh;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+}
+
+.projetos h2{
+    color: white;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 50px;
+}
+.lista-projetos{
+    display: flex;
+    justify-content: center;
+}
+
+
+.projeto-pizzaria,
+.projeto-star {
+    height: 365px;
+    width: 335px;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 30px;
+    
+}
+
+.projeto-pizzaria h5, 
+.projeto-star h5 {
+    color: white;
+    font-size: 15px;
+}
+
+.projeto-pizzaria p,
+.projeto-star p {
+    color: #999;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.projeto-pizzaria a,
+.projeto-star a {
+    color: white;
+    background-color: red;
+    border-radius:20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.projeto-pizzaria a:hover,
+.projeto-star a:hover {
+    background-color: rgb(177, 27, 27);
+    transition: 0.5s;
+}
+
+.foto-pizza,
+.foto-star {
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+}
+
+
+
+
+
+
+footer {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .info{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+}
+
+footer .img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+footer h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer img:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
